@@ -41,22 +41,4 @@ Truncate Table Friends
 ALTER TABLE Friends Add Gender varchar(6), City varchar(10)
 
 
---SELECT TABLE
-
-Select * from Friends
-
---INSERT TABLE
-Insert into Friends Values ('Nihat','Bozkurt','40','02-04-1980','Nihatb@gmail.com','Erkek','İzmir'),
- ('Nesrin','Erdoğan','15','02-04-2005','elerdd@gmail.com','Kadın','Ankara')
-
- Insert into Friends Values('test','test','50','01.01.2001','test','test','test','(536-411-50-50)')
-
-
- --UPDATE TABLE
-Update Friends set BirthDate = '21.03.2001' where FriendID = 2
-
--- DELETE TABLE
-Insert into Friends Values ('Test','Testa','30','02.04.1997','test@gmail.com','Test','Test','test')
-Select * from Friends
-Delete from Friends where FriendID = 31
 
